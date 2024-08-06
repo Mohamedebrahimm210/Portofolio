@@ -1,0 +1,127 @@
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #000016;
+  /* background: url(images/IMG_7302.JPG) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4e9eff;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  margin-right: 20px;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+.Download-cv {
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  /* margin: 20px; */
+  border-radius: 15px;
+  transition: 0.7s ease;
+}
+.Download-cv:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+
+.social-icons a i {
+  color: #fff;
+  font-size: 1.7em;
+  padding-right: 30px;
+  transition: 0.7s ease;
+}
+.social-icons a i:hover {
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 1023px) {
+  section {
+    padding: 80px 20px;
+  }
+
+  .main-content h2 {
+    font-size: 1em;
+  }
+
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+}
+
+@media (max-width: 641px) {
+  section {
+    padding: 60px 15px;
+  }
+
+  .main-content h2 {
+    font-size: 0.8em;
+  }
+
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 300px) {
+  section {
+    padding: 50px 10px;
+  }
+
+  .main-content h2 {
+    font-size: 0.7em;
+  }
+
+  .main-content h3 {
+    font-size: 1.2em;
+  }
+}
